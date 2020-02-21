@@ -99,3 +99,86 @@ nav {
      margin-right: 20px;
  }
 
+ /*---Nav Bar Styling Ended----*/
+
+ /*--date and time--*/
+ .date-time {
+     display: flex;
+     margin-left: 10%;
+     margin-top: 5%;
+ }
+  .date-time p {
+      font-family: knowledge-regular, sans-serif;
+      font-size: 15px;
+      line-height: 11px;
+      color: grey;
+      margin-right: 20px;
+
+  }
+  .date-time p:first-child {
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  /*---Article Section---*/
+  .article-margin {
+     margin-left: 10%;
+    margin-right: 45%;
+
+  }
+  
+  article h2{
+    margin-top: 5%;
+    font-family: knowledge-medium, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47.2px;
+    color: rgb(63, 63, 64);
+  }
+
+  .author {
+      display: flex;
+      margin-top: 30px;
+  }
+
+  .name{
+      text-decoration: none;
+      font-family: freight-book, serif;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 22px;
+      color: grey;
+      margin-top: 15px;
+
+  }
+  .author div {
+      display: flex;
+      margin-left: auto;
+  }
+  .author div p {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 15px;
+      color: rgb(113, 115, 117);
+      margin-top: 15px;
+      margin-right: 45px;
+  }
+
+  .social-icon a {
+    text-decoration: none;
+    color: grey;
+
+  }
+  .author div a div {
+      height: 50px;
+      width: 50px;
+      border: 1px solid grey;
+      align-items: center;
+      position: relative;
+      
+  }
+  .social-icon a div .fa {
+      margin-left: 30%;
+      font-size: 25px;
+  }
+
